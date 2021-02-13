@@ -8,7 +8,7 @@
 #include "Component.h"
 
 class C_RayCaster :public Component {
-
+    C_RayCaster(Object *owner);
 };
 
 
