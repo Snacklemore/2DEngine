@@ -221,6 +221,7 @@ void SceneGame::CreatePlayer() {
     player->AddComponent<C_Velocity>();
     player->AddComponent<C_MovementAnimation>();
     player->AddComponent<C_Direction>();
+    player->AddComponent<C_RayCaster>();
 
     objects.SetPlayer(player);
     objects.Add(player);

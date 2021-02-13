@@ -22,6 +22,7 @@
 #include "C_MovementAnimation.h"
 #include "C_Direction.h"
 #include "S_LightSystem.h"
+#include "C_RayCaster.h"
 
 class SceneGame : public Scene {
 public:
