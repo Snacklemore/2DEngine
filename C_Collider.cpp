@@ -1,0 +1,21 @@
+//
+// Created by root on 06.09.19.
+//
+
+#include "C_Collider.h"
+
+C_Collider::C_Collider(Object *owner):Component(owner),layer(CollisionLayer::Default) {
+
+}
+
+C_Collider::~C_Collider() {
+
+}
+
+CollisionLayer C_Collider::GetLayer() const {
+    return layer;
+}
+
+void C_Collider::SetLayer(CollisionLayer layer) {
+    this->layer = layer;
+}
